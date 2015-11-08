@@ -1,3 +1,4 @@
 module.exports = {
-  '/movie': require('./controllers/MovieController')
+  '/arduinos/:arduino_id': require('./controllers/ArduinoReportController'),
+  '/user': require('./controllers/UserController')
 };
